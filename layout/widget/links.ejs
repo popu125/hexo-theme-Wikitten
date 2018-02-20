@@ -5,7 +5,7 @@
             <ul>
                 <% for (var i in theme.miscellaneous.links) { %>
                     <li>
-                        <a href="<%- theme.miscellaneous.links[i] %>"><%= i %></a>
+                        <a class="link" href="<%- theme.miscellaneous.links[i].link %>" title="<%- theme.miscellaneous.links[i].desc %>"><%= i %></a>
                     </li>
                 <% } %>
             </ul>
